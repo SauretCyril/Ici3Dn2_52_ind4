@@ -1,0 +1,65 @@
+# Unreal Engine generated files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+__ExternalActors__/
+__ExternalObjects__/
+# plugins en course de développement
+plugins/
+# Build files
+Build/
+*.target
+*.target.xml
+
+# IDE files
+.vscode/
+.vs/
+.idea/
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.xcodeproj/
+*.xcworkspace/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Plugin specific
+**/Plugins/**/Binaries/
+**/Plugins/**/Intermediate/
+
+# Log files
+*.log
+
+# Crash dumps
+*.dmp
+
+# Backup files
+*.bak
+*.tmp
+*~
+
+# Cooked content (optionnel selon votre workflow)
+# Content/Cooked/
+
+# Local config files that might contain sensitive data
+Config/LocalEngine.ini
+Config/LocalGame.ini
+Config/LocalEditor.ini
+
+# Platform specific
+android/
+ios/

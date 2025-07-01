@@ -1,0 +1,28 @@
+{
+  "project_settings": {
+    "name": "Ici3Dn",
+    "version": "2.52",
+    "description": "Projet Ici3Dn avec support Python"
+  },
+  "python_settings": {
+    "debug_mode": true,
+    "auto_reload_modules": true,
+    "log_level": "INFO"
+  },
+  "paths": {
+    "custom_scripts": "Content/Python/scripts",
+    "data_files": "Content/Python/data",
+    "templates": "Content/Python/templates"
+  },
+  "plugins": {
+    "required": [
+      "Python",
+      "EditorScriptingUtilities",
+      "PythonScriptPlugin"
+    ],
+    "optional": [
+      "Sequencer",
+      "LevelSequence"
+    ]
+  }
+}
